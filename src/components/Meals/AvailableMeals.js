@@ -35,11 +35,12 @@ const AvailableMeals = () => {
     <MealItem
       key={meal.id}
       name={meal.name}
-      discription={meal.discription}
+      description={meal.description}
       price={meal.price}
     />
   ));
   console.log(mealsList);
+
   return (
     <section className={classes.meals}>
       <Card>
